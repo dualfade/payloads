@@ -4,7 +4,8 @@
 #{java}
 ${“aaaa”}
 ${99999+1}
-#{7+7} or ${{7*7}}
+#{7+7}
+${{7*7}}
 #{ T(java.lang.Math).random() * 10.0}
 ${‘this is el vulnerability’.toUpperCase()}
 ${‘a’.concat(‘b’)}
