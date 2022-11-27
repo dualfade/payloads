@@ -6,3 +6,5 @@ X-Client-IP: 127.0.0.1
 X-Host: 127.0.0.1
 X-Forwared-Host: 127.0.0.1
 X-Real-Ip: 127.0.0.1
+X-Original-URL: /admin
+X-Rewrite-Url: /admin
