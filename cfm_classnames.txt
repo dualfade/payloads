@@ -1,6 +1,6 @@
 # pulled from cfm stack dump --
-# useful for deserial class hunting ?? maybe --
-# parse as need into --
+# useful for deserialization class hunting ?? maybe --
+# parse as needed --
 asSubclass(java.lang.Class) 	java.lang.Class
 cast(java.lang.Object)
 desiredAssertionStatus() 	boolean
