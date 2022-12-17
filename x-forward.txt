@@ -8,3 +8,4 @@ X-Forwared-Host: 127.0.0.1
 X-Real-Ip: 127.0.0.1
 X-Original-URL: /admin
 X-Rewrite-Url: /admin
+X-Forwarded-Scheme: nothttps
