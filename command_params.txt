@@ -24,3 +24,4 @@
 ?run={payload}
 ?print={payload}
 ?mode={payload}
+?url={payload}
