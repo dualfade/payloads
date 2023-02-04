@@ -1,5 +1,7 @@
 // use with intruder --
 // cat dangerous_functions.txt | ag -v '//' | awk {'print $1'} | tr -d "'" | tee -a /tmp/0
+// stolen from -> https://gist.github.com/mccabe615/b0907514d34b2de088c4996933ea1720
+// which stole from -> https://stackoverflow.com/a/3697776
 // command exec
 exec           - Returns last line of commands output
 passthru       - Passes commands output directly to the browser
