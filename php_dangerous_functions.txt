@@ -1,4 +1,5 @@
-// cat dangerous_functions.txt | ag -v '//' | awk {'print $1'} | tee -a /tmp/0
+// use with intruder --
+// cat dangerous_functions.txt | ag -v '//' | awk {'print $1'} | tr -d "'" | tee -a /tmp/0
 // command exec
 exec           - Returns last line of commands output
 passthru       - Passes commands output directly to the browser
