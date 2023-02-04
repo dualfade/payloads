@@ -19,8 +19,9 @@ include()
 include_once()
 require()
 require_once()
-$_GET['func_name']($_GET['argument']);
-$func = new ReflectionFunction($_GET['func_name']); $func->invoke(); or $func->invokeArgs(array());
+// PHP Code Exec; manually check --
+// $_GET['func_name']($_GET['argument']);
+// $func = new ReflectionFunction($_GET['func_name']); $func->invoke(); or $func->invokeArgs(array());
 // List of functions which accept callbacks
 // Function                     => Position of callback arguments
 'ob_start'                   =>  0,
