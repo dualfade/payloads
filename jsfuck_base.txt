@@ -1,0 +1,17 @@
+# cat jsfuck.txt | awk {'print $3'} | xclipc
+
+false       =>  ![]
+true        =>  !![]
+undefined   =>  [][[]]
+NaN         =>  +[![]]
+0           =>  +[]
+1           =>  +!+[]
+2           =>  !+[]+!+[]
+10          =>  [+!+[]]+[+[]]
+Array       =>  []
+Number      =>  +[]
+String      =>  []+[]
+Boolean     =>  ![]
+Function    =>  []["filter"]
+eval        =>  []["filter"]["constructor"]( CODE )()
+window      =>  []["filter"]["constructor"]("return this")()
